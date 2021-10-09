@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-color: #002939;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color: floralwhite;
+    position: relative;
+}
+
+#caixa-principal{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #75B7BA;
+    height: 270px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border: none;
+}
+
+.conteudo {
+    padding-top: 30px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#calcular{
+    margin-top: 20px;
+    background-color: rgb(84, 182, 84);
+    color: white;
+    border: none;
+    height: 25px;
+    cursor: pointer;
+}
+
+#calcular:active{
+    opacity: 0.6;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#exibir{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@media(max-width: 800px){
+
+    #caixa-principal{
+        width: 100vw;
+        height: 50vh;
+        border-radius: 0;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .conteudo {
+       margin-top: 80px;
+       
+    }
+}
